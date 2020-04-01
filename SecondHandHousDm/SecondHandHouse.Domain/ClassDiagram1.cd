@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SecondHandHouse.Domain.Seller">
+    <Position X="1" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Seller.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="House" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SecondHandHouse.Domain.Transaction">
+    <Position X="4" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAQAAEAAAAABAAAIAAAAgoACAA=</HashCode>
+      <FileName>Transaction.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Seller" />
+      <Property Name="Buyer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SecondHandHouse.Domain.Buyer">
+    <Position X="7" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Buyer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SecondHandHouse.Domain.House">
+    <Position X="1" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAgAAAAAAAAAAAAAACQAAAAAAAAQAAAAA=</HashCode>
+      <FileName>House.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="SecondHandHouse.Domain.EstatePorperty">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAQAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EstatePorperty.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SecondHandHouse.Domain.AreaSize">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>AreaSize.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
