@@ -49,6 +49,11 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="StampTaxTest.cs" />
+    <Compile Include="PersonalIncomeTaxTest.cs" />
+    <Compile Include="CostTaxTest.cs" />
+    <Compile Include="SyntheyicalLandTaxTest.cs" />
+    <Compile Include="SalesTaxTest.cs" />
     <Compile Include="DeedTaxTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

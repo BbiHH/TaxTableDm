@@ -37,7 +37,7 @@ namespace SecondHandHouse.Domain
             get
             {
                 var tax = 4.0;
-                if (Buyer.IsFirstHouse == true) //购买首套房
+                if (Buyer.IsFirstHouse) //购买首套房
                 {
                     if (Seller.House.Size == AreaSize.Small)
                     {

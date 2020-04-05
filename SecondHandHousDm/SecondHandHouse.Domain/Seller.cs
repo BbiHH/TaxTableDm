@@ -15,10 +15,7 @@ namespace SecondHandHouse.Domain
 
         public House House
         {
-            get => default;
-            set
-            {
-            }
+            get;
         }
 
         /// <summary>
@@ -26,10 +23,7 @@ namespace SecondHandHouse.Domain
         /// </summary>
         public bool IsOnlyHouse
         {
-            get => default;
-            set
-            {
-            }
+            get;
         }
     }
 }
